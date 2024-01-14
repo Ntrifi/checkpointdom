@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(63, 53, 66);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .part {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container .part .box {
+    border: 1px solid black;
+    width: 300px;
+    background-color: rgb(123, 101, 101);
+    height: 430px;
+}
+
+.part .contenu {
+    display: flex;
+}
+
+.container .part .box img {
+    width: 100%;
+    height: 300px;
+}
+
+.container .part .box .contenu {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .part .box .contenu .title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .part .box .contenu .prix {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .part .box .xbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.part .result {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.part .result span {
+    font-size: 300px;
+    font-weight: 1000;
+}
+
+.part .total {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.container .part .box .xbox ion-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container .part .box .xbox .Like.liked {
+    color: red;
+}

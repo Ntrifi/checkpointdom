@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Dom Checkpoint</title>
+  </head>
+  <!-- body -->
+  <body>
+    <!-- container -->
+    <div class="container">
+      <div class="part" >
+        <div class="box">
+        <img src="https://res.cloudinary.com/dgs5ufh6i/image/upload/v1705176722/Assets/Die_Fuchsfrau_l2u7xo.jpg" alt="erreur">
+        <div class="contenu">
+            <span class="title">Die Fuchsfrau</span>
+            <span class="description">Digital sur Toile , Bois, 100x80cm</span>
+            <span class="prix">4570</span>
+        </div>
+        <!-- xbox -->
+        <div class="xbox">
+          <span onclick="toggleLike(1)"><ion-icon class="Like" name="heart"></ion-icon></span>
+          <span> Ajoutez au panier</span>
+          <div>
+            <ion-icon class="moins" name="remove-outline"></ion-icon>
+            <span class="nmbr">0</span>
+            <ion-icon  class="plus" name="add-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+        <div class="box">
+        <img src="https://res.cloudinary.com/dgs5ufh6i/image/upload/v1705176719/Assets/Rabentreffen_rvskgj.jpg" alt="erreur">
+          <!-- contenu-->
+        <div class="contenu">
+          <span class="title">Rabentreffen</span>
+          <span class="description">Digital sur Toile , Bois, 110x90cm</span>
+          <span class="prix">7600</span>
+        </div>
+        <div class="xbox">
+          <span onclick="toggleLike(2)"><ion-icon class="Like" name="heart"></ion-icon></span>
+          <span> Ajoutez au panier</span>
+          <div>
+            <ion-icon class="moins" name="remove-outline"></ion-icon>
+            <span class="nmbr">0</span>
+            <ion-icon  class="plus" name="add-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+        <div class="box">
+      <img src="https://res.cloudinary.com/dgs5ufh6i/image/upload/v1705176712/Assets/Madam_Butterfly_h9psxk.webp" alt="erreur">
+        <div class="contenu">
+            <span class="title">Madam Butterfly</span>
+            <span class="description">Digital sur Toile , Bois, 110x90cm</span>
+            <span class="prix">5640</span>
+        </div>
+        <div class="xbox">
+          <span onclick="toggleLike(3)"><ion-icon class="Like" name="heart"></ion-icon></span>
+          <span> Ajoutez au panier</span>
+          <div>
+            <ion-icon class="moins" name="remove-outline"></ion-icon>
+            <span class="nmbr">0</span>
+            <ion-icon class="plus" name="add-outline"></ion-icon>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="part" >
+        <div class="result">
+          <span><ion-icon name="cart-outline"></ion-icon></span>
+        </div>
+      <span class="total">TOTAL</span>
+      <span class="total" id="totalPrix">0</span>
+      </div>
+    </div>
+
+
+
+<!-- script-->
+    <script src="./main.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
